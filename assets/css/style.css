@@ -1,13 +1,16 @@
+/*adds styles to the entire file*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*gives background color to body element*/
 body {
     background-color: #d9dcd6;
 }
 
+/*defines the attributes for the header element*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/*sets text size and makes text appear horizontally for h1*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*sets the text color*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*creates margin properties and font characteristic. Also pushes the text to the right side of page*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,24 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
+/*sets text to align horizontally and adds left margin*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*sets text color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*sets font size*/
 p {
     font-size: 16px;
 }
 
+/*sets the width, height, and margins. also links an image and sets it characteristics*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +65,26 @@ p {
     background-position: center;
 }
 
+/*adds margins and push text left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*adds margins and push text right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*set width and margins of the class content and makes block horizontal*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*sets margin, width, height, font, and background properties for the aside items*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +96,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*creates margin and text color for aside items*/
+.benefits-group {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*creates margin and text alginment for aside items*/
+.benefits-group h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*sets properites for the pictures on aside page*/
+.benefits-group img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/*sets properties for the paragraphs on left side of page*/
+.left-paragraphs {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,51 +125,18 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/*sets max height for the 3 images on left side of page*/
+.left-paragraphs img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*sets margin and font for the 3 boxes on left side of page*/
+.left-paragraphs h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*sets the padding and font properties for the footer*/
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +144,7 @@ footer {
     text-align: center;
 }
 
+/*sets the font size for h3 footer*/
 footer h3 {
     font-size: 20px;
 }
